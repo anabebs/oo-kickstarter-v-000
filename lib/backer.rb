@@ -2,7 +2,7 @@ class Backer
   attr_accessor :name 
 
   
-  def initialize(name, project)
+  def initialize(name)
     @name =name
     
     
