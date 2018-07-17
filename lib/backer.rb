@@ -3,7 +3,7 @@ class Backer
   attr_reader :name
 @@all = []
   
-  def initialize(name)
+  def initialize(backer_name)
     @name =name
     
     
