@@ -1,2 +1,5 @@
 class Backer
-  attr_accessor :nme
+  attr_accessor :backed_projects
+  
+  def initialize()
+    @backed_projects = []
